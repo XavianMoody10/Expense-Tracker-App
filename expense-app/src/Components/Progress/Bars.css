@@ -1,0 +1,14 @@
+progress {
+  height: 40px;
+  min-width: 300px;
+  appearance: none;
+  border: 1px solid black;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background-color: black;
+}

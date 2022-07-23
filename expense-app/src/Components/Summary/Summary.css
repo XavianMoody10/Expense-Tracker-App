@@ -1,0 +1,31 @@
+.summary-container {
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 1/4;
+  padding: 15px 15px;
+}
+
+.summary-container h2,
+.summary-container p {
+  text-align: center;
+}
+
+.summary-container h2 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+}
+
+.total {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.highest {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}

@@ -1,0 +1,13 @@
+.label-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+}
+
+.label-container label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
