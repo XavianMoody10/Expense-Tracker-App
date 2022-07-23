@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <div className="grid-container">
-        <Summary amount={amount.toFixed(2)} />
+        <Summary amount={amount.toFixed(2)} data={newData} />
         <Add getFormData={getFormData} />
         <Progress amount={amount} label={label} data={newData} />
       </div>
